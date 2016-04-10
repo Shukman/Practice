@@ -3,7 +3,10 @@ package start;
 public class Task01 {
 	
 	public static void main(String[] args) {
-		switch (3){
+		
+		int num = Integer.parseInt(args[0]);
+		
+		switch (num){
 			case 0:
 				System.out.println("ноль");
 				break;
